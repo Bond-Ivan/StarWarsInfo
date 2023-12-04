@@ -87,7 +87,7 @@ export default function renderDetailBodyCharacters(characters) {
 
     $characters.classList.add('container', 'characters');
     $charactersnTitle.classList.add('characters__title');
-    $swiper.classList.add('characters__swiper', 'swiper');
+    $swiper.classList.add('swiper','characters__swiper');
     $swiperWrapper.classList.add('swiper-wrapper');
     $charactersBox.classList.add('characters__box');
     $charactersText.classList.add('characters__text');

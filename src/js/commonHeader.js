@@ -12,7 +12,6 @@ export default function commonHeader() {
     $header.classList.add('container', 'header');
     $headerTitle.classList.add('header__title');
     $headerText.classList.add('header__text');
-
     $scrollInfoBox.classList.add('header__info-box');
     $scrollInfoHeader.classList.add('header__info-header');
     $scrollInfoImg.classList.add('header__info-img');
