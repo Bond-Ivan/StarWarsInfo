@@ -1,14 +1,11 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
-const path = require('path');
 
 module.exports = (env) => ({
     entry: './src/js/common.js',
     output: {
         filename: 'main.[contenthash].js',
-        path: path.resolve(__dirname, 'dist'),
-        publicPath: '/',
     },
 
     module: {
