@@ -22,7 +22,7 @@ export default function renderCommonPage(data) {
     const $swiperWrapper = document.createElement('div');
     const $swiperPagination = document.createElement('div');
 
-    $swiper.classList.add('swiper', 'mySwiper');
+    $swiper.classList.add('swiper__common-page', 'mySwiper');
     $swiperWrapper.classList.add('swiper-wrapper');
     $swiperPagination.classList.add('swiper-pagination');
 
